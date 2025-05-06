@@ -39,7 +39,7 @@ public class LoginController extends HttpServlet {
 			rd.forward(request, response);
 		} else {
 			out.write(result);
-			RequestDispatcher rd = request.getRequestDispatcher("loginpage.html");
+			RequestDispatcher rd = request.getRequestDispatcher("loginPage.html");
 			rd.include(request, response);
 		}
 
